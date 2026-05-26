@@ -54,8 +54,8 @@ class Carousel {
       };
 
       // HOVER CORRIGIDO (funciona em tudo dentro do carousel)
-      Carousel._carousel.addEventListener("mouseenter", Carousel._stop);
-      Carousel._carousel.addEventListener("mouseleave", Carousel._start);
+      Carousel._img.addEventListener("mouseenter", Carousel._stop);
+Carousel._img.addEventListener("mouseleave", Carousel._start);
 
       // inicia autoplay
       Carousel._start();
