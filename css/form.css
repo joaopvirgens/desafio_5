@@ -1,0 +1,62 @@
+/* Classe usada em inputs (campos de formulário) */
+.fordform {
+  display: block; /* Faz o elemento ocupar toda a largura disponível (quebra linha) */
+  width: 300px; /* Define a largura do campo */
+  border: 1px solid #cccccc; /* Borda cinza clara */
+  border-radius: 10px; /* Arredonda os cantos da borda */
+  height: 26px; /* Altura do campo */
+  margin: 8px; /* Espaçamento externo em todos os lados */
+  font-size: 13px; /* Tamanho do texto dentro do campo */
+  padding: 5px; /* Espaçamento interno (distância do texto até a borda) */
+}
+
+/* Estilização específica para elementos <select> com a classe .fordform */
+select.fordform {
+  width: 310px; /* Largura um pouco maior que os inputs */
+  height: 36px; /* Altura maior para o select */
+  color: #807d7d; /* Cor do texto (cinza) */
+}
+
+/* Remove o contorno padrão quando o input está selecionado (focado) */
+input:focus-visible {
+  outline: none; /* Remove a borda azul padrão do navegador */
+}
+
+/* Remove o contorno padrão quando o select está selecionado */
+select:focus-visible {
+  outline: none; /* Remove a borda azul padrão */
+}
+
+/* Estiliza todas as divs dentro de <main> */
+main div {
+  display: inline-block; /* Permite que as divs fiquem lado a lado */
+  vertical-align: top; /* Alinha as divs pelo topo */
+  text-align: left; /* Alinha o texto à esquerda */
+  padding-top: 30px; /* Espaço interno acima */
+  padding-bottom: 30px; /* Espaço interno abaixo */
+}
+
+/* Classe usada para agrupar formulários */
+.forms {
+  display: block; /* Ocupa toda a largura */
+  text-align: center; /* Centraliza os elementos dentro dela */
+}
+
+/* Estilização dos títulos <h2> */
+h2 {
+  text-align: left; /* Alinha o texto à esquerda */
+  font-weight: 800; /* Deixa o texto bem mais grosso (negrito forte) */
+}
+
+/* Estilização dos botões */
+button {
+  width: 200px; /* Largura do botão */
+  height: 40px; /* Altura do botão */
+  margin-right: 8px; /* Espaço à direita */
+  float: right; /* Faz o botão ir para a direita do container */
+}
+
+/* Classe para títulos ou elementos com pequeno espaçamento à esquerda */
+.titulo {
+  margin-left: 8px; /* Espaço à esquerda */
+}

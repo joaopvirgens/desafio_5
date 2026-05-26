@@ -1,0 +1,100 @@
+/* Estiliza a lista <ul> com a classe modelcars */
+ul.modelcars {
+  display: block; /* Faz a lista se comportar como bloco (ocupa toda a largura disponível) */
+  text-align: center; /* Centraliza o conteúdo dentro da lista */
+  margin-bottom: 40px; /* Espaço abaixo da lista */
+}
+
+/* Estiliza cada item <li> dentro da lista modelcars */
+ul.modelcars li {
+  display: inline-block; /* Permite que os itens fiquem lado a lado */
+  text-align: left; /* Alinha o texto interno à esquerda */
+  width: 300px; /* Define largura fixa para cada item */
+  vertical-align: top; /* Alinha os itens pelo topo */
+}
+
+/* Estiliza as imagens dos carros */
+img.photocar {
+  display: block; /* Faz a imagem ocupar uma linha inteira */
+  width: 250px; /* Define largura da imagem */
+}
+
+/* Estiliza o checkbox (caixa de seleção) */
+.checkbox {
+  width: 30px; /* Largura do checkbox */
+  height: 30px; /* Altura do checkbox */
+  border: 1px solid #1b357e; /* Borda azul escura */
+}
+
+/* Estiliza todas as divs dentro de .infocar */
+.infocar div {
+  display: inline-block; /* Faz as divs ficarem lado a lado */
+}
+
+/* Área de informações do carro */
+.info {
+  width: 200px; /* Largura da área de informações */
+  vertical-align: top; /* Alinha ao topo em relação aos outros elementos */
+}
+
+/* Texto do modelo do carro */
+.textmodel {
+  display: block; /* Ocupa linha inteira */
+  text-align: left; /* Alinha à esquerda */
+  font-size: 14px; /* Tamanho da fonte */
+  color: #1351d8; /* Cor azul */
+}
+
+/* Texto do preço */
+.textprice {
+  display: block; /* Ocupa linha inteira */
+  text-align: left; /* Alinha à esquerda */
+  font-size: 10px; /* Fonte menor para preço */
+}
+
+/* Estiliza a tabela */
+table {
+  border-collapse: collapse; /* Remove espaços entre bordas das células */
+  width: 80%; /* Define largura da tabela */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+  margin-top: 2vh; /* Espaço acima (2% da altura da tela) */
+  margin-bottom: 10px; /* Espaço abaixo */
+}
+
+/* Estiliza células (th = cabeçalho, td = dados) */
+th,
+td {
+  text-align: left; /* Alinha texto à esquerda */
+  padding: 8px; /* Espaçamento interno */
+}
+
+/* Estiliza a primeira coluna da tabela */
+td:nth-child(1) {
+  font-weight: 700; /* Deixa o texto em negrito */
+  width: 40%; /* Define largura da primeira coluna */
+}
+
+/* Estiliza linhas pares da tabela */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Cor de fundo cinza claro */
+}
+
+/* Estiliza a div com id "compare" (janela de comparação) */
+div#compare {
+  position: absolute; /* Permite posicionamento livre na tela */
+  display: none; /* Começa escondida */
+  width: 50vw; /* Largura = 50% da largura da tela */
+  max-width: 800px; /* Largura máxima */
+  min-width: 400px; /* Largura mínima */
+  height: 80vh; /* Altura = 80% da altura da tela */
+  max-height: 700px; /* Altura máxima */
+  min-height: 350px; /* Altura mínima */
+  background: #fff; /* Fundo branco */
+  top: calc(100vh - 80%); /* Posiciona verticalmente */
+  left: 25vw; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 10px; /* Espaçamento interno */
+  -webkit-box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 34%); /* Sombra para Safari/Chrome antigo */
+  box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 34%); /* Sombra padrão */
+}
